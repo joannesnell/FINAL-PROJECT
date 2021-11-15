@@ -1,17 +1,20 @@
-def add_adjective:
+def add_adjective(adj_list, adj):
+    while adj in adj list:
+        print("This adjective is already in the list! try again")
     
 
-def add_noun:
+
+def add_noun(noun_list, noun):
 
     
     
     
-def add_verb:
+def add_verb(verb_list, verb):
     
     
     
     
-def random_song
+def random_song():
 
 
 
