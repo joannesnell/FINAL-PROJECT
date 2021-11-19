@@ -16,6 +16,41 @@ def add_verb(verb_list, verb):
     
     
     
+# def add_adjective(adj_list, adj):
+#     while adj == int:
+#         print("This is not a valid word! TRY AGAIN!")
+#     while adj in adj_list:
+#         print("This adjective is already in the list! try again")
+#     if adj not in adj_list
+#         adj_list.append(adj)
+        
+
+        
+# def add_noun(noun_list, noun):
+
+    
+
+    
+    
+    
+# def add_verb(verb_list, verb):
+    
+songblanks_file = open('songblanks.txt', "r")
+lister = songblanks_file.read()
+print(lister[0])
+
+
+  
+    
+# print("Please fill in the blanks of the following sentance: The (insert noun) is very (insert adjective)")    
+# noun = input("enter a noun")
+# adjective = input("enter a adjective")
+# print ("The " + noun + " is very " + adjective)
+
+
+#The (noun) is very (adjective)
+
+
 
 
 
