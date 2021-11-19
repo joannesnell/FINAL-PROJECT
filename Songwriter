@@ -1,20 +1,31 @@
+Print("Welcome to Songwriter. Here you will be able to create your own song by adding adjectives, nouns and words.")
+
+adjective_input = input("what adjective would you like to add?")
 def add_adjective(adj_list, adj):
+    while adj == int:
+        print("This is not a valid word! TRY AGAIN!")
     while adj in adj_list:
         print("This adjective is already in the list! Try again.")
-    
+    else:
+        adj_list.append(adj)
 
-
+noun_input = input("what noun would you like to add?")
 def add_noun(noun_list, noun):
+    while noun == int:
+        print("This is not a valid word! TRY AGAIN!")
     while noun in noun_list:
         print ("This noun is already in the list! Try again.")
+    else:
+        noun_list.append(noun)
     
-    
-    
+verb_input = input("what verb would you like to add?")    
 def add_verb(verb_list, verb):
+    while verb == int:
+        print("This is not a valid word! TRY AGAIN!")
     while verb in verb_list:
-        print ("This verb is already in the the list! 
-    
-    
+        print ("This verb is already in the the list!) 
+    else:
+        verb_list.append(verb)
     
 # def add_adjective(adj_list, adj):
 #     while adj == int:
